@@ -1,0 +1,67 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: rgb(231, 228, 228);
+}
+
+.grid{
+	display: grid;
+	grid-row-gap: 5px;
+	grid-template-rows: 100px 60px 1fr;
+	grid-template-columns: 200px 1fr 300px;
+	
+
+}
+
+.test{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+
+.grid-header{
+ grid-column-start: 1;
+ grid-column-end: 6;
+ background-color: #8e87874a;
+}
+
+.grid-header img{
+	margin: 7px;
+	border-radius: 15px;
+}
+
+.grid-header nav{
+	border-radius: 5px;
+	color: rgb(170, 14, 35);
+	font-size: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 20px;
+    float:right;
+}
+
+.grid-item1{
+	padding: 10px;
+	background-color: rgb(103, 105, 233);
+}
+
+.grid-item2{
+	padding: 10px;
+	background-color: #8e3b983b;
+}
+
+.grid-item3{
+	padding: 10px;
+	background-color: gold;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited {
+    color: #900060; /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: #f00; /* Цвет активной ссылки */ 
+   } 
