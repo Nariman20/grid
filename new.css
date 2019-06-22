@@ -1,7 +1,7 @@
 body, h1, p{
 	padding: 0;
 	margin: 0;
-	background-color: rgb(231, 228, 228);
+	background-color: rgba(8, 255, 209, 0.45);
 }
 
 .grid{
