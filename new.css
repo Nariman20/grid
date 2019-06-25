@@ -1,7 +1,12 @@
+*{
+	box-sizing: border-box;
+}
+
 body, h1, p{
 	padding: 0;
 	margin: 0;
 	background-color: rgba(8, 255, 209, 0.45);
+	
 }
 
 .grid{
@@ -38,14 +43,15 @@ body, h1, p{
 	border-radius: 15px;
 }
 
-.grid-header nav{
-	border-radius: 5px;
+ .nav__item{
 	color: rgb(170, 14, 35);
 	font-size: 18px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: sans-serif;
 	margin: 20px;
-    float:right;
-}
+	display: inline-block;
+	top: 	0px;
+	
+ }
 
 .grid-item1{
 	padding: 10px;
@@ -72,3 +78,10 @@ a:visited {
    a:active {
     color: #f00; /* Цвет активной ссылки */ 
    } 
+
+   .nav{
+	  float: right;
+	    
+   }
+
+  

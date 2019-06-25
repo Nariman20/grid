@@ -5,7 +5,7 @@
     <title>ГРИДЫ</title>
     <link rel="stylesheet" type="text/css" href="new.css">
     <link href="https://fonts.googleapis.com/css?family=Aguafina+Script&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
 </head>
 
 <body>
@@ -13,21 +13,45 @@
 
         <div class='grid-header'>
             <img src='logo_food.png' width="180px" />
-            <nav>
-                <a href='#'>Меню</a>
-            </nav>
-            <nav>
-                <a href='#'>Новости</a>
-            </nav>
-            <nav>
-                <a href='#'>Тарифы</a>
-            </nav>
-            <nav>
-                <a href='#'>Связаться</a>
-            </nav>
-            <nav>
-                <a href='#'>Галерея</a>
-            </nav>
+
+            <ul class='nav'>
+                <li class='nav__item'>
+                    <a href="#" class='nav__item__link'>
+                        <i class="fas fa-user"></i> Профиль
+                    </a>
+                    <div class="nav__submeny">
+                        <a href="#" class="nav__submeny__link">Посты</a>
+                        <a href="#" class="nav__submeny__link">Картинки</a>
+                    </div>
+                </li>
+
+                <li class='nav__item'>
+                    <a href="#" class='nav__item__link'>
+                        <i class="far fa-envelope"></i> Сообщение
+                    </a>
+                    <div class="nav__submeny">
+                        <a href="#" class="nav__submeny__link">Новые</a>
+                        <a href="#" class="nav__submeny__link">Отправленные</a>
+                        <a href="#" class="nav__submeny__link">Спам</a>
+                    </div>
+                </li>
+
+                <li class='nav__item'>
+                    <a href="#" class='nav__item__link'>
+                        <i class="fas fa-cog"></i> Настройки
+                    </a>
+                    <div class="nav__submeny">
+                        <a href="#" class="nav__submeny__link">Пароль</a>
+                        <a href="#" class="nav__submeny__link">Язык</a>
+                    </div>
+                </li>
+
+                <li class='nav__item'>
+                    <a href="#" class='nav__item__link'>
+                        <i class="fas fa-door-open"></i> Выход
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class='headline'>
             <h1>Оглавление</h1>
@@ -48,40 +72,7 @@
     </div>
 
 
-    <ul class='nav'>
-        <li class='nav__item'>
-            <a href="#" class='nav__item__link'>Профиль</a>
-            <div class="nav__submeny">
-                <a href="#" class="nav__submeny__link">Посты</a>
-                <a href="#" class="nav__submeny__link">Картинки</a>
-            </div>
-        </li>
 
-        <li class='nav__item'>
-            <a href="#" class='nav__item__link'>Сообщение</a>
-            <div class="nav__submeny">
-                <a href="#" class="nav__submeny__link">Посты</a>
-                <a href="#" class="nav__submeny__link">Картинки</a>
-            </div>
-        </li>
-
-        <li class='nav__item'>
-            <a href="#" class='nav__item__link'>Настройки</a>
-            <div class="nav__submeny">
-                <a href="#" class="nav__submeny__link">Посты</a>
-                <a href="#" class="nav__submeny__link">Картинки</a>
-            </div>
-        </li>
-
-
-        <li class='nav__item'>
-            <a href="#" class='nav__item__link'>Выход</a>
-            <div class="nav__submeny">
-                <a href="#" class="nav__submeny__link">Посты</a>
-                <a href="#" class="nav__submeny__link">Картинки</a>
-            </div>
-        </li>
-    </ul>
 
 </body>
 
